@@ -1,0 +1,117 @@
+	<!DOCTYPE html>
+	<html>
+	<!-- Head .....................................................................-->
+	<head>
+		<title> CheFix: The World is your Personal Chef </title>
+
+		<!-- Stylesheet --> 
+		<link type="text/css" rel="stylesheet" href="styles.css" />
+
+		<!-- JQuery import-->
+		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+		<!-- Script -->
+		<script type="text/javascript" src="script.js"> 
+		</script> 
+
+		<!-- BootStrap: Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	</head>
+	<!-- ..................................................................... -->
+
+	<!-- Body .................................................................-->
+	<body>
+		<!-- The header div -->
+		<div class="header"> 
+
+			<div class="logobox">
+				<a href="index.html"><img class="logo" src="chefix_small.png"></img></a>
+			</div>
+			<h1 class="slogan"> The World is your Personal Chef </h1>
+			<div class="headbutsbox">
+				<button class="btn btn-primary" id="aboutbut">About</button>
+				<button class="btn btn-primary" id="featuresheadbut">Features</button>
+				<button class="btn btn-primary" id="signupheadbut">Signup</button>
+
+			</div>
+
+		</div>
+
+		<!-- The Page below the header -->
+		<div class="page">
+			<div id="pageimgbox">
+				<img class="pageimg" src="headimg.jpg"></img>
+				<div class="sloganbox">
+					<!-- <h1 class="slogan"> The World is your Personal Chef </h1> -->
+				</div>
+			</div>
+			<div class="aboutblock">
+				<h1 class="aboutitle"> Just what the HELL is CheFix?</h1>
+				<p class="aboutext"> 
+					Are you hungry, broke, and lazy? If that's the case, CheFix is the App for you. Just a few taps and you will be eating a high quality homecooked meal in a matter of minutes.  
+				</p>
+			</div>
+
+			<!-- The feature div -->
+			<div class="featuresblock">
+				<h1 class="featurestitle"> Here are a few of the many features of CheFix:</h1>
+                <!-- <button class="btn btn-primary" id="signupfeatbut">Signup</button> -->
+                
+				<!-- The feature table -->
+				<table class="features"> 
+					<tr class="featurimgrow">
+						<td class="feature"><img class="featurimg" src="dolla.jpg"></img></td>
+						<td class="feature"><img class="featurimg" src="gmaps.png"></img></td>
+						<td class="feature"><img class="featurimg" src="stars.png"></img></td>
+						<td class="feature"><img class="featurimg" src="filter.jpg"></img></td>
+						<td class="feature"><img class="featurimg" src="more.png"></img></td>
+					</tr>
+					<tr class="featuretxt">
+						<td class="featuretxtrow"><p class="featuretxt">A $5 only price per meal. That's right! For as little as five bucks, you can eat the homecooked meal of your choice.</p></td>
+						<td class="featuretxtrow"><p class="featuretxt">A state of the art mapping system that enables you to quickly connect to cooks within your immediate vacinity.</p></td>
+						<td class="featuretxtrow"><p class="featuretxt">A five star rating system for each cook you order from to ensure the quality of your meals and service.</p></td>
+						<td class="featuretxtrow"><p class="featuretxt">Search fiters to make sure you eat ON YOUR TERMS. Distance, cuisine, ratings, cooking time, quantities, etc.</p></td>
+						<td class="featuretxtrow"><p class="featuretxt">Many more amazing features are still in the works. Our goal is to make CheFix as deliciously awesome as possible.</p></td>
+					</tr>
+				</table>
+			</div>
+
+			<!-- The signup div -->
+			<div class="signupblock">
+				<h1 class="signuptitle"> Signup Here</h1>
+				<p class="signuptxt"> Be the first to know when the App is live :) </p>
+
+				<!-- The signup form -->
+				<div class="signupform">
+					<form action="https://forms.hubspot.com/uploads/form/v2/2114090/7f99274e-793c-418b-b076-8c25c524a43f" method="post" name="myForm" id="myForm">
+						First Name*<br>
+						<input type="text" name="firstname" class="form-control" placeholder="Enter your first name" required><br>
+						Last Name*<br>
+						<input type="text" name="lastname" class="form-control" placeholder="Enter your last name"required><br>
+						E-Mail*<br>
+						<input type="email" id="emailform" name="email" type="email" class="form-control" placeholder="Enter your email"required> <br>
+						Are you interested in using CheFix?*<br>
+						<input type="radio" name="choice" value="Yes" required> Yes<br>
+						<input type="radio" name="choice" value="No" required> No<br><br>
+						Questions? Comments?<br>
+						<textarea name="comments" rows="6" cols="70" form="myForm" placeholder="Let me know if you have any questions or comments." id="commentfield"></textarea>
+						<input type="submit" value="Submit" class="btn btn-success" id="subtn">
+						<input type="reset" value="Reset" class="btn btn-info" id="resetbtn">  
+					</form> 
+				</div>
+			</div>
+
+			<!-- The footer div -->
+			<div class="footer">
+				<button class="btn btn-primary" id="bttbut">Back to Top</button>
+			</div>
+		</div>
+
+	</body>
+	</html>
